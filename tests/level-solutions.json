@@ -1,0 +1,192 @@
+[
+  {
+    "level": 1,
+    "title": "泡泡码头",
+    "target": 15,
+    "score": 15,
+    "shots": [
+      {
+        "yaw": -0.035,
+        "pitch": 0.08
+      }
+    ],
+    "scores": [
+      15
+    ],
+    "initialSteps": 120,
+    "shotSteps": [
+      117
+    ],
+    "maxStepsPerShot": 360
+  },
+  {
+    "level": 2,
+    "title": "三色方塔",
+    "target": 20,
+    "score": 20,
+    "shots": [
+      {
+        "yaw": -0.035,
+        "pitch": 0.08
+      }
+    ],
+    "scores": [
+      20
+    ],
+    "initialSteps": 120,
+    "shotSteps": [
+      189
+    ],
+    "maxStepsPerShot": 360
+  },
+  {
+    "level": 3,
+    "title": "双塔连桥",
+    "target": 24,
+    "score": 24,
+    "shots": [
+      {
+        "yaw": -0.07,
+        "pitch": 0.22
+      },
+      {
+        "yaw": 0.1,
+        "pitch": 0.04
+      }
+    ],
+    "scores": [
+      16,
+      24
+    ],
+    "initialSteps": 120,
+    "shotSteps": [
+      224,
+      130
+    ],
+    "maxStepsPerShot": 360
+  },
+  {
+    "level": 4,
+    "title": "斜撑仓库",
+    "target": 26,
+    "score": 26,
+    "shots": [
+      {
+        "yaw": -0.16,
+        "pitch": 0.14
+      },
+      {
+        "yaw": 0.07,
+        "pitch": 0.04
+      }
+    ],
+    "scores": [
+      18,
+      26
+    ],
+    "initialSteps": 120,
+    "shotSteps": [
+      297,
+      137
+    ],
+    "maxStepsPerShot": 360
+  },
+  {
+    "level": 5,
+    "title": "海风阶梯",
+    "target": 29,
+    "score": 29,
+    "shots": [
+      {
+        "yaw": 0.07,
+        "pitch": 0.08
+      },
+      {
+        "yaw": -0.2,
+        "pitch": 0.08
+      }
+    ],
+    "scores": [
+      27,
+      29
+    ],
+    "initialSteps": 120,
+    "shotSteps": [
+      245,
+      100
+    ],
+    "maxStepsPerShot": 360
+  },
+  {
+    "level": 6,
+    "title": "厚墙货栈",
+    "target": 34,
+    "score": 34,
+    "shots": [
+      {
+        "yaw": 0,
+        "pitch": 0.08
+      }
+    ],
+    "scores": [
+      34
+    ],
+    "initialSteps": 120,
+    "shotSteps": [
+      118
+    ],
+    "maxStepsPerShot": 360
+  },
+  {
+    "level": 7,
+    "title": "三塔联阵",
+    "target": 39,
+    "score": 39,
+    "shots": [
+      {
+        "yaw": -0.07,
+        "pitch": 0.08
+      },
+      {
+        "yaw": 0,
+        "pitch": 0.08
+      }
+    ],
+    "scores": [
+      26,
+      39
+    ],
+    "initialSteps": 120,
+    "shotSteps": [
+      198,
+      154
+    ],
+    "maxStepsPerShot": 360
+  },
+  {
+    "level": 8,
+    "title": "灯塔嘉年华",
+    "target": 48,
+    "score": 48,
+    "shots": [
+      {
+        "yaw": -0.1,
+        "pitch": 0.14
+      },
+      {
+        "yaw": 0,
+        "pitch": 0.08
+      }
+    ],
+    "scores": [
+      35,
+      48
+    ],
+    "initialSteps": 120,
+    "shotSteps": [
+      240,
+      139
+    ],
+    "maxStepsPerShot": 360
+  }
+]
