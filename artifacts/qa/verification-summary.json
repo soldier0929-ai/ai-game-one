@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-01",
+  "environment": "cloud /workspace/ai-game-one",
+  "node": "24.19.0",
+  "checks": [
+    {
+      "command": "npm test",
+      "result": "passed",
+      "testFiles": 8,
+      "tests": 72
+    },
+    {
+      "command": "npm run build",
+      "result": "passed",
+      "includes": "tsc --noEmit",
+      "warning": "JavaScript chunk exceeds 500kB; embedded Rapier WASM"
+    },
+    {
+      "command": "npm run solve -- --replay",
+      "result": "passed",
+      "levels": 8
+    }
+  ],
+  "observed_at_utc": "2026-10-01 05:23",
+  "build_files": {
+    "favicon.svg": "aec2b78a652e1af29bd7f9c036af0af7cdd4f6005342fadba67d2c3cde550cb6",
+    "index.html": "d30dd1c1a47f75012ebaa85d12a32da444078b0299012a4ed052efd6ccfdeffb",
+    "licenses/three-MIT.txt": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+    "licenses/rapier-APACHE-2.0.txt": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519",
+    "assets/index-DMjP-QO0.css": "f3d40498a6e2f6e5d0d81e0793fb896725dfdc14db35019effb371d4740cd552",
+    "assets/index-CYWf06i0.js": "528bd5e37071ba324555f2263cba1491c4c62d6703c1005a4bfb3bcde48915e5"
+  }
+}

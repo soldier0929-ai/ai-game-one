@@ -23,43 +23,43 @@ Pointer cancellation and repeated input must not spend shots; last-shot settling
 
 Files: `src/simulation.ts`, `src/levels.ts`, `src/trajectory.ts`, `tests/physics.test.ts`, `scripts/solve-levels.ts`, `tests/level-solutions.json`.
 Interfaces: `initializePhysics(): Promise<void>`; `Simulation(level)` with `step(dt=1/60): PhysicsEvent[]`, `fire(aim): boolean`, `retireProjectile(): void`, `snapshot(): PhysicsSnapshot`, `dispose(): void`; `LEVELS: LevelDefinition[]`; trajectory exports `SHOT_SPEED`, `BALL_RADIUS`, `GRAVITY`, `clampAim(aim)`, `launchVelocity(aim)` and `trajectoryPoints(origin,aim,count=30): Vec3[]`.
-- [ ] Write failing tests for counts, stable initial towers, real projectile collision/CCD, scoring deduplication and cleanup; run before implementation.
-- [ ] Implement physical layouts, Rapier ownership and shared trajectory math. Count falling only after first fire, below platform bottom for 0.25s; dispose each fallen body and report splash.
-- [ ] Build a deterministic solver/replay using only legal `fire` plus fixed physics steps, find solutions for every level within ammo, store angles and observed scores. Adjust layouts/materials conservatively if needed.
-- [ ] Run physics tests and all-level replay, report evidence and limitations.
+- [x] Write failing tests for counts, stable initial towers, real projectile collision/CCD, scoring deduplication and cleanup; run before implementation.
+- [x] Implement physical layouts, Rapier ownership and shared trajectory math. Count falling only after first fire, below platform bottom for 0.25s; dispose each fallen body and report splash.
+- [x] Build a deterministic solver/replay using only legal `fire` plus fixed physics steps, find solutions for every level within ammo, store angles and observed scores. Adjust layouts/materials conservatively if needed.
+- [x] Run physics tests and all-level replay, report evidence and limitations.
 
 ### Task 2: Three-dimensional game presentation
 
 Files: `src/renderer.ts`, `tests/renderer.test.ts` if meaningful.
 Interface: `GameRenderer(canvas,onContextLost)` with `setLevel(level)`, `update(snapshot,aim,dt,state: RendererState)`, `fireFeedback()`, `impactFeedback(event)`, `resize()`, `dispose()`, `diagnostics()`.
-- [ ] Establish a functional render smoke criterion and resource lifecycle checks before authoring.
-- [ ] Build a polished sea diorama with original geometric platform, coral/gold/teal block materials, toy cannon, sky, islands and water; update body poses from simulation only.
-- [ ] Show bounded trajectory dots, cannon orientation and drag aiming feedback, flash/recoil/splash/impact; respect reduced motion and mobile framing.
-- [ ] Verify real canvas output and disposal through integration browser QA; report any blocked check.
+- [x] Establish a functional render smoke criterion and resource lifecycle checks before authoring.
+- [x] Build a polished sea diorama with original geometric platform, coral/gold/teal block materials, toy cannon, sky, islands and water; update body poses from simulation only.
+- [x] Show bounded trajectory dots, cannon orientation and drag aiming feedback, flash/recoil/splash/impact; respect reduced motion and mobile framing.
+- [x] Verify real canvas output and disposal through integration browser QA; report any blocked check.
 
 ### Task 3: UI and audio
 
 Files: `src/ui.ts`, `src/style.css`, `src/audio.ts`, `tests/ui.test.ts`, `tests/audio.test.ts` where meaningful.
 Interfaces: `GameUI(root,onAction)` with `render(model: GameViewModel)`, `dispose()`; `GameAudio` with async `unlock()`, `play(kind,strength?)`, `setMuted(bool)`, `suspend()`, `resume()`, `dispose()`, `diagnostics()`.
-- [ ] Write UI action/disabled state tests and run before implementation.
-- [ ] Build game-native Chinese home, levels, tutorial, HUD, pause, results/error views with readable bold typography, navy/teal/cream and sunny yellow accents. Minimal overlays keep the 3D world dominant; buttons minimum 44px, responsive portrait/landscape.
-- [ ] Implement capped synthesized sound voices and mute/unlock/cleanup. No audio or font downloads.
-- [ ] Run scoped tests and report real checks versus deferred browser checks.
+- [x] Write UI action/disabled state tests and run before implementation.
+- [x] Build game-native Chinese home, levels, tutorial, HUD, pause, results/error views with readable bold typography, navy/teal/cream and sunny yellow accents. Minimal overlays keep the 3D world dominant; buttons minimum 44px, responsive portrait/landscape.
+- [x] Implement capped synthesized sound voices and mute/unlock/cleanup. No audio or font downloads.
+- [x] Run scoped tests and report real checks versus deferred browser checks.
 
 ### Task 4: Rules, storage, inputs and integration (owner)
 
 Files: `src/main.ts`, `src/game.ts`, `src/storage.ts`, `src/input.ts`, `src/webmcp.ts`, `index.html`, `public/favicon.svg`, `tests/game.test.ts`, `tests/storage.test.ts`, `tests/input.test.ts`.
-- [ ] Test legal state transitions, exact stars/thresholds, last-shot grace, pause/cancel, storage invalid/unavailable cases before implementations.
-- [ ] Implement game state as single source of truth; integrate modules in requestAnimationFrame with 1/60 fixed steps, max 5/frame and safe visibility handling.
-- [ ] Add all inputs, local save and lifecycle/error handling; expose only normal read/start/aim/fire actions if WebMCP is supported.
-- [ ] Run typecheck, all tests and production build; correct integration defects.
+- [x] Test legal state transitions, exact stars/thresholds, last-shot grace, pause/cancel, storage invalid/unavailable cases before implementations.
+- [x] Implement game state as single source of truth; integrate modules in requestAnimationFrame with 1/60 fixed steps, max 5/frame and safe visibility handling.
+- [x] Add all inputs, local save and lifecycle/error handling; expose only normal read/start/aim/fire actions if WebMCP is supported.
+- [x] Run typecheck, all tests and production build; correct integration defects.
 
 ### Task 5: Independent QA and review
 
 Files: `scripts/browser-qa.py`, `docs/testing.md`, `artifacts/` evidence files (owner selects files for Git).
-- [ ] Independent agent uses real mouse/keyboard/touch and real physics to complete all eight levels; validate pause, restart, save, audio, CCD and resource cleanup.
-- [ ] Inspect screenshots at desktop/mobile/landscape and record errors, genuine limitations and performance conditions; fix defects with covering tests.
-- [ ] Independent whole-project review checks spec compliance and quality, then scoped recheck of fixes.
+- [x] Independent agent uses real mouse/keyboard/touch and real physics to complete all eight levels; validate pause, restart, save, audio, CCD and resource cleanup.
+- [x] Inspect screenshots at desktop/mobile/landscape and record errors, genuine limitations and performance conditions; fix defects with covering tests.
+- [x] Independent whole-project review checks spec compliance and quality, then scoped recheck of fixes.
 
 ### Task 6: Delivery (owner)
 

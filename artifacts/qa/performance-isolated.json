@@ -1,0 +1,55 @@
+{
+  "environment": {
+    "browser": "/usr/bin/chromium",
+    "renderer": "SwiftShader",
+    "url": "http://127.0.0.1:4173",
+    "input": "real Playwright mouse/keyboard and CDP touchscreen",
+    "version": "151.0.7922.173"
+  },
+  "checks": [
+    {
+      "name": "60-second cloud frame-time sample collected",
+      "passed": true,
+      "detail": {
+        "durationMs": 60014.2,
+        "frames": 249,
+        "averageFPS": 4.149018065724445,
+        "medianMs": 200,
+        "p95Ms": 483.3999999999942,
+        "maxMs": 1316.5999999999985,
+        "framesOver50Ms": 235,
+        "framesOver100Ms": 223,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scene": "level 1, idle aiming",
+        "limitation": "CPU SwiftShader cloud browser; not representative of real desktop/mobile GPU performance"
+      }
+    },
+    {
+      "name": "no browser console errors or uncaught exceptions",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "wins": [],
+  "errors": [],
+  "warnings": [],
+  "performance": {
+    "durationMs": 60014.2,
+    "frames": 249,
+    "averageFPS": 4.149018065724445,
+    "medianMs": 200,
+    "p95Ms": 483.3999999999942,
+    "maxMs": 1316.5999999999985,
+    "framesOver50Ms": 235,
+    "framesOver100Ms": 223,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scene": "level 1, idle aiming",
+    "limitation": "CPU SwiftShader cloud browser; not representative of real desktop/mobile GPU performance"
+  }
+}

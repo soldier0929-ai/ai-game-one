@@ -1,0 +1,3460 @@
+{
+  "environment": {
+    "browser": "/usr/bin/chromium",
+    "renderer": "SwiftShader",
+    "url": "http://127.0.0.1:4173",
+    "input": "real Playwright mouse/keyboard and CDP touchscreen",
+    "version": "151.0.7922.173"
+  },
+  "checks": [
+    {
+      "name": "level 1 real pointer shot 1",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": -0.035,
+          "pitch": 0.08
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 1,
+          "levelName": "泡泡码头",
+          "levelHint": "瞄准塔底，让上层积木失去支撑。",
+          "ammo": 2,
+          "maxAmmo": 3,
+          "fallen": 0,
+          "total": 18,
+          "target": 15,
+          "stars": 0,
+          "bestStars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 1,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": -0.034999974568684894,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 19,
+            "fallenIds": [],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 18,
+            "visibleBlocks": 18,
+            "geometries": 14,
+            "textures": 3,
+            "drawCalls": 196,
+            "triangles": 21750,
+            "activeParticles": 0,
+            "activeRipples": 0,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 35
+          }
+        }
+      }
+    },
+    {
+      "name": "physical browser win level 1",
+      "passed": true,
+      "detail": {
+        "attempts": [
+          {
+            "screen": "won",
+            "phase": "aiming",
+            "currentLevel": 1,
+            "levelName": "泡泡码头",
+            "levelHint": "瞄准塔底，让上层积木失去支撑。",
+            "ammo": 2,
+            "maxAmmo": 3,
+            "fallen": 15,
+            "total": 18,
+            "target": 15,
+            "stars": 3,
+            "bestStars": [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "unlocked": 2,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 4.066666666666668,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": -0.034999974568684894,
+              "pitch": 0.08
+            },
+            "physics": {
+              "bodyCount": 4,
+              "fallenIds": [
+                "level-1-brick-0",
+                "level-1-brick-1",
+                "level-1-brick-2",
+                "level-1-brick-3",
+                "level-1-brick-6",
+                "level-1-brick-4",
+                "level-1-brick-7",
+                "level-1-brick-9",
+                "level-1-brick-8",
+                "level-1-brick-10",
+                "level-1-brick-12",
+                "level-1-brick-13",
+                "level-1-brick-14",
+                "level-1-brick-15",
+                "level-1-brick-16"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 6,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 18,
+              "visibleBlocks": 3,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 161,
+              "triangles": 17482,
+              "activeParticles": 36,
+              "activeRipples": 6,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 35
+            }
+          }
+        ],
+        "result": {
+          "screen": "won",
+          "phase": "aiming",
+          "currentLevel": 1,
+          "levelName": "泡泡码头",
+          "levelHint": "瞄准塔底，让上层积木失去支撑。",
+          "ammo": 2,
+          "maxAmmo": 3,
+          "fallen": 15,
+          "total": 18,
+          "target": 15,
+          "stars": 3,
+          "bestStars": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 2,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 4.066666666666668,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": -0.034999974568684894,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 4,
+            "fallenIds": [
+              "level-1-brick-0",
+              "level-1-brick-1",
+              "level-1-brick-2",
+              "level-1-brick-3",
+              "level-1-brick-6",
+              "level-1-brick-4",
+              "level-1-brick-7",
+              "level-1-brick-9",
+              "level-1-brick-8",
+              "level-1-brick-10",
+              "level-1-brick-12",
+              "level-1-brick-13",
+              "level-1-brick-14",
+              "level-1-brick-15",
+              "level-1-brick-16"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 6,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 18,
+            "visibleBlocks": 3,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 161,
+            "triangles": 17482,
+            "activeParticles": 36,
+            "activeRipples": 6,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 35
+          }
+        }
+      }
+    },
+    {
+      "name": "level 2 real pointer shot 1",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": -0.035,
+          "pitch": 0.08
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 2,
+          "levelName": "三色方塔",
+          "levelHint": "高塔容易摇晃，试着击中下层的一角。",
+          "ammo": 2,
+          "maxAmmo": 3,
+          "fallen": 0,
+          "total": 24,
+          "target": 20,
+          "stars": 0,
+          "bestStars": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 2,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": -0.034999974568684894,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 25,
+            "fallenIds": [],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 24,
+            "visibleBlocks": 24,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 213,
+            "triangles": 23614,
+            "activeParticles": 0,
+            "activeRipples": 0,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 36
+          }
+        }
+      }
+    },
+    {
+      "name": "physical browser win level 2",
+      "passed": true,
+      "detail": {
+        "attempts": [
+          {
+            "screen": "won",
+            "phase": "aiming",
+            "currentLevel": 2,
+            "levelName": "三色方塔",
+            "levelHint": "高塔容易摇晃，试着击中下层的一角。",
+            "ammo": 2,
+            "maxAmmo": 3,
+            "fallen": 20,
+            "total": 24,
+            "target": 20,
+            "stars": 3,
+            "bestStars": [
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "unlocked": 3,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 2.9333333333333393,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": -0.034999974568684894,
+              "pitch": 0.08
+            },
+            "physics": {
+              "bodyCount": 5,
+              "fallenIds": [
+                "level-2-brick-0",
+                "level-2-brick-2",
+                "level-2-brick-4",
+                "level-2-brick-6",
+                "level-2-brick-1",
+                "level-2-brick-5",
+                "level-2-brick-10",
+                "level-2-brick-8",
+                "level-2-brick-9",
+                "level-2-brick-3",
+                "level-2-brick-7",
+                "level-2-brick-13",
+                "level-2-brick-14",
+                "level-2-brick-12",
+                "level-2-brick-16",
+                "level-2-brick-17",
+                "level-2-brick-23",
+                "level-2-brick-19",
+                "level-2-brick-22",
+                "level-2-brick-20"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 4,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 24,
+              "visibleBlocks": 4,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 168,
+              "triangles": 18126,
+              "activeParticles": 23,
+              "activeRipples": 6,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 36
+            }
+          }
+        ],
+        "result": {
+          "screen": "won",
+          "phase": "aiming",
+          "currentLevel": 2,
+          "levelName": "三色方塔",
+          "levelHint": "高塔容易摇晃，试着击中下层的一角。",
+          "ammo": 2,
+          "maxAmmo": 3,
+          "fallen": 20,
+          "total": 24,
+          "target": 20,
+          "stars": 3,
+          "bestStars": [
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 3,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 2.9333333333333393,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": -0.034999974568684894,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 5,
+            "fallenIds": [
+              "level-2-brick-0",
+              "level-2-brick-2",
+              "level-2-brick-4",
+              "level-2-brick-6",
+              "level-2-brick-1",
+              "level-2-brick-5",
+              "level-2-brick-10",
+              "level-2-brick-8",
+              "level-2-brick-9",
+              "level-2-brick-3",
+              "level-2-brick-7",
+              "level-2-brick-13",
+              "level-2-brick-14",
+              "level-2-brick-12",
+              "level-2-brick-16",
+              "level-2-brick-17",
+              "level-2-brick-23",
+              "level-2-brick-19",
+              "level-2-brick-22",
+              "level-2-brick-20"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 4,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 24,
+            "visibleBlocks": 4,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 168,
+            "triangles": 18126,
+            "activeParticles": 23,
+            "activeRipples": 6,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 36
+          }
+        }
+      }
+    },
+    {
+      "name": "level 3 real pointer shot 1",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": -0.07,
+          "pitch": 0.22
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 3,
+          "levelName": "双塔连桥",
+          "levelHint": "先击中桥下的塔脚，观察横梁的连锁反应。",
+          "ammo": 3,
+          "maxAmmo": 4,
+          "fallen": 0,
+          "total": 30,
+          "target": 24,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 3,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": -0.07000001271565755,
+            "pitch": 0.2199999936421712
+          },
+          "physics": {
+            "bodyCount": 31,
+            "fallenIds": [],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 30,
+            "visibleBlocks": 30,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 232,
+            "triangles": 25638,
+            "activeParticles": 0,
+            "activeRipples": 0,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 36
+          }
+        }
+      }
+    },
+    {
+      "name": "level 3 real pointer shot 2",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": 0.1,
+          "pitch": 0.04
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 3,
+          "levelName": "双塔连桥",
+          "levelHint": "先击中桥下的塔脚，观察横梁的连锁反应。",
+          "ammo": 2,
+          "maxAmmo": 4,
+          "fallen": 16,
+          "total": 30,
+          "target": 24,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 3,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0.10000000000000002,
+            "pitch": 0.04000000635782877
+          },
+          "physics": {
+            "bodyCount": 15,
+            "fallenIds": [
+              "level-3-brick-25",
+              "level-3-brick-8",
+              "level-3-brick-5",
+              "level-3-brick-20",
+              "level-3-brick-24",
+              "level-3-brick-4",
+              "level-3-brick-9",
+              "level-3-brick-11",
+              "level-3-brick-28",
+              "level-3-brick-26",
+              "level-3-brick-27",
+              "level-3-brick-7",
+              "level-3-brick-1",
+              "level-3-brick-21",
+              "level-3-brick-17",
+              "level-3-brick-13"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 30,
+            "visibleBlocks": 14,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 193,
+            "triangles": 21174,
+            "activeParticles": 8,
+            "activeRipples": 1,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 36
+          }
+        }
+      }
+    },
+    {
+      "name": "physical browser win level 3",
+      "passed": true,
+      "detail": {
+        "attempts": [
+          {
+            "screen": "playing",
+            "phase": "aiming",
+            "currentLevel": 3,
+            "levelName": "双塔连桥",
+            "levelHint": "先击中桥下的塔脚，观察横梁的连锁反应。",
+            "ammo": 3,
+            "maxAmmo": 4,
+            "fallen": 16,
+            "total": 30,
+            "target": 24,
+            "stars": 0,
+            "bestStars": [
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "unlocked": 3,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 2.233333333333342,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": -0.07000001271565755,
+              "pitch": 0.2199999936421712
+            },
+            "physics": {
+              "bodyCount": 15,
+              "fallenIds": [
+                "level-3-brick-25",
+                "level-3-brick-8",
+                "level-3-brick-5",
+                "level-3-brick-20",
+                "level-3-brick-24",
+                "level-3-brick-4",
+                "level-3-brick-9",
+                "level-3-brick-11",
+                "level-3-brick-28",
+                "level-3-brick-26",
+                "level-3-brick-27",
+                "level-3-brick-7",
+                "level-3-brick-1",
+                "level-3-brick-21",
+                "level-3-brick-17",
+                "level-3-brick-13"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 0,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 30,
+              "visibleBlocks": 14,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 194,
+              "triangles": 21254,
+              "activeParticles": 8,
+              "activeRipples": 1,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 36
+            }
+          },
+          {
+            "screen": "won",
+            "phase": "aiming",
+            "currentLevel": 3,
+            "levelName": "双塔连桥",
+            "levelHint": "先击中桥下的塔脚，观察横梁的连锁反应。",
+            "ammo": 2,
+            "maxAmmo": 4,
+            "fallen": 24,
+            "total": 30,
+            "target": 24,
+            "stars": 3,
+            "bestStars": [
+              3,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "unlocked": 4,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 3.833333333333336,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": 0.10000000000000002,
+              "pitch": 0.04000000635782877
+            },
+            "physics": {
+              "bodyCount": 7,
+              "fallenIds": [
+                "level-3-brick-25",
+                "level-3-brick-8",
+                "level-3-brick-5",
+                "level-3-brick-20",
+                "level-3-brick-24",
+                "level-3-brick-4",
+                "level-3-brick-9",
+                "level-3-brick-11",
+                "level-3-brick-28",
+                "level-3-brick-26",
+                "level-3-brick-27",
+                "level-3-brick-7",
+                "level-3-brick-1",
+                "level-3-brick-21",
+                "level-3-brick-17",
+                "level-3-brick-13",
+                "level-3-brick-12",
+                "level-3-brick-14",
+                "level-3-brick-18",
+                "level-3-brick-16",
+                "level-3-brick-19",
+                "level-3-brick-23",
+                "level-3-brick-29",
+                "level-3-brick-22"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 4,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 30,
+              "visibleBlocks": 6,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 187,
+              "triangles": 19814,
+              "activeParticles": 36,
+              "activeRipples": 6,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 36
+            }
+          }
+        ],
+        "result": {
+          "screen": "won",
+          "phase": "aiming",
+          "currentLevel": 3,
+          "levelName": "双塔连桥",
+          "levelHint": "先击中桥下的塔脚，观察横梁的连锁反应。",
+          "ammo": 2,
+          "maxAmmo": 4,
+          "fallen": 24,
+          "total": 30,
+          "target": 24,
+          "stars": 3,
+          "bestStars": [
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 4,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 3.833333333333336,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0.10000000000000002,
+            "pitch": 0.04000000635782877
+          },
+          "physics": {
+            "bodyCount": 7,
+            "fallenIds": [
+              "level-3-brick-25",
+              "level-3-brick-8",
+              "level-3-brick-5",
+              "level-3-brick-20",
+              "level-3-brick-24",
+              "level-3-brick-4",
+              "level-3-brick-9",
+              "level-3-brick-11",
+              "level-3-brick-28",
+              "level-3-brick-26",
+              "level-3-brick-27",
+              "level-3-brick-7",
+              "level-3-brick-1",
+              "level-3-brick-21",
+              "level-3-brick-17",
+              "level-3-brick-13",
+              "level-3-brick-12",
+              "level-3-brick-14",
+              "level-3-brick-18",
+              "level-3-brick-16",
+              "level-3-brick-19",
+              "level-3-brick-23",
+              "level-3-brick-29",
+              "level-3-brick-22"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 4,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 30,
+            "visibleBlocks": 6,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 187,
+            "triangles": 19814,
+            "activeParticles": 36,
+            "activeRipples": 6,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 36
+          }
+        }
+      }
+    },
+    {
+      "name": "level 4 real pointer shot 1",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": -0.16,
+          "pitch": 0.14
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 4,
+          "levelName": "斜撑仓库",
+          "levelHint": "四根支柱撑着屋顶，先拆掉一侧的承重柱。",
+          "ammo": 3,
+          "maxAmmo": 4,
+          "fallen": 0,
+          "total": 32,
+          "target": 26,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 4,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": -0.1599999745686849,
+            "pitch": 0.14000000635782878
+          },
+          "physics": {
+            "bodyCount": 33,
+            "fallenIds": [],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 32,
+            "visibleBlocks": 32,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 238,
+            "triangles": 26286,
+            "activeParticles": 0,
+            "activeRipples": 0,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "level 4 real pointer shot 2",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": 0.07,
+          "pitch": 0.04
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 4,
+          "levelName": "斜撑仓库",
+          "levelHint": "四根支柱撑着屋顶，先拆掉一侧的承重柱。",
+          "ammo": 2,
+          "maxAmmo": 4,
+          "fallen": 18,
+          "total": 32,
+          "target": 26,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 4,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0.07000001271565756,
+            "pitch": 0.04000000635782877
+          },
+          "physics": {
+            "bodyCount": 15,
+            "fallenIds": [
+              "level-4-brick-1",
+              "level-4-brick-7",
+              "level-4-brick-2",
+              "level-4-brick-8",
+              "level-4-brick-3",
+              "level-4-brick-9",
+              "level-4-brick-10",
+              "level-4-brick-4",
+              "level-4-brick-11",
+              "level-4-brick-5",
+              "level-4-brick-26",
+              "level-4-brick-30",
+              "level-4-brick-29",
+              "level-4-brick-31",
+              "level-4-brick-27",
+              "level-4-brick-28",
+              "level-4-brick-25",
+              "level-4-brick-24"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 32,
+            "visibleBlocks": 14,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 199,
+            "triangles": 21654,
+            "activeParticles": 10,
+            "activeRipples": 3,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "physical browser win level 4",
+      "passed": true,
+      "detail": {
+        "attempts": [
+          {
+            "screen": "playing",
+            "phase": "aiming",
+            "currentLevel": 4,
+            "levelName": "斜撑仓库",
+            "levelHint": "四根支柱撑着屋顶，先拆掉一侧的承重柱。",
+            "ammo": 3,
+            "maxAmmo": 4,
+            "fallen": 18,
+            "total": 32,
+            "target": 26,
+            "stars": 0,
+            "bestStars": [
+              3,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "unlocked": 4,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 1.400000000000011,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": -0.1599999745686849,
+              "pitch": 0.14000000635782878
+            },
+            "physics": {
+              "bodyCount": 15,
+              "fallenIds": [
+                "level-4-brick-1",
+                "level-4-brick-7",
+                "level-4-brick-2",
+                "level-4-brick-8",
+                "level-4-brick-3",
+                "level-4-brick-9",
+                "level-4-brick-10",
+                "level-4-brick-4",
+                "level-4-brick-11",
+                "level-4-brick-5",
+                "level-4-brick-26",
+                "level-4-brick-30",
+                "level-4-brick-29",
+                "level-4-brick-31",
+                "level-4-brick-27",
+                "level-4-brick-28",
+                "level-4-brick-25",
+                "level-4-brick-24"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 0,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 32,
+              "visibleBlocks": 14,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 206,
+              "triangles": 22214,
+              "activeParticles": 16,
+              "activeRipples": 3,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 37
+            }
+          },
+          {
+            "screen": "won",
+            "phase": "aiming",
+            "currentLevel": 4,
+            "levelName": "斜撑仓库",
+            "levelHint": "四根支柱撑着屋顶，先拆掉一侧的承重柱。",
+            "ammo": 2,
+            "maxAmmo": 4,
+            "fallen": 26,
+            "total": 32,
+            "target": 26,
+            "stars": 3,
+            "bestStars": [
+              3,
+              3,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            "unlocked": 5,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 3.8500000000000028,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": 0.07000001271565756,
+              "pitch": 0.04000000635782877
+            },
+            "physics": {
+              "bodyCount": 7,
+              "fallenIds": [
+                "level-4-brick-1",
+                "level-4-brick-7",
+                "level-4-brick-2",
+                "level-4-brick-8",
+                "level-4-brick-3",
+                "level-4-brick-9",
+                "level-4-brick-10",
+                "level-4-brick-4",
+                "level-4-brick-11",
+                "level-4-brick-5",
+                "level-4-brick-26",
+                "level-4-brick-30",
+                "level-4-brick-29",
+                "level-4-brick-31",
+                "level-4-brick-27",
+                "level-4-brick-28",
+                "level-4-brick-25",
+                "level-4-brick-24",
+                "level-4-brick-20",
+                "level-4-brick-14",
+                "level-4-brick-13",
+                "level-4-brick-15",
+                "level-4-brick-23",
+                "level-4-brick-16",
+                "level-4-brick-21",
+                "level-4-brick-19"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 4,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 32,
+              "visibleBlocks": 6,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 185,
+              "triangles": 19654,
+              "activeParticles": 34,
+              "activeRipples": 6,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 37
+            }
+          }
+        ],
+        "result": {
+          "screen": "won",
+          "phase": "aiming",
+          "currentLevel": 4,
+          "levelName": "斜撑仓库",
+          "levelHint": "四根支柱撑着屋顶，先拆掉一侧的承重柱。",
+          "ammo": 2,
+          "maxAmmo": 4,
+          "fallen": 26,
+          "total": 32,
+          "target": 26,
+          "stars": 3,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 5,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 3.8500000000000028,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0.07000001271565756,
+            "pitch": 0.04000000635782877
+          },
+          "physics": {
+            "bodyCount": 7,
+            "fallenIds": [
+              "level-4-brick-1",
+              "level-4-brick-7",
+              "level-4-brick-2",
+              "level-4-brick-8",
+              "level-4-brick-3",
+              "level-4-brick-9",
+              "level-4-brick-10",
+              "level-4-brick-4",
+              "level-4-brick-11",
+              "level-4-brick-5",
+              "level-4-brick-26",
+              "level-4-brick-30",
+              "level-4-brick-29",
+              "level-4-brick-31",
+              "level-4-brick-27",
+              "level-4-brick-28",
+              "level-4-brick-25",
+              "level-4-brick-24",
+              "level-4-brick-20",
+              "level-4-brick-14",
+              "level-4-brick-13",
+              "level-4-brick-15",
+              "level-4-brick-23",
+              "level-4-brick-16",
+              "level-4-brick-21",
+              "level-4-brick-19"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 4,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 32,
+            "visibleBlocks": 6,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 185,
+            "triangles": 19654,
+            "activeParticles": 34,
+            "activeRipples": 6,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "level 5 real pointer shot 1",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": 0.07,
+          "pitch": 0.08
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 5,
+          "levelName": "海风阶梯",
+          "levelHint": "从低处到高处，逐区清理阶梯。",
+          "ammo": 3,
+          "maxAmmo": 4,
+          "fallen": 0,
+          "total": 36,
+          "target": 29,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 5,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0.07000001271565755,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 37,
+            "fallenIds": [],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 36,
+            "visibleBlocks": 36,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 249,
+            "triangles": 27502,
+            "activeParticles": 0,
+            "activeRipples": 0,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "level 5 real pointer shot 2",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": -0.2,
+          "pitch": 0.08
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 5,
+          "levelName": "海风阶梯",
+          "levelHint": "从低处到高处，逐区清理阶梯。",
+          "ammo": 2,
+          "maxAmmo": 4,
+          "fallen": 27,
+          "total": 36,
+          "target": 29,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 5,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": -0.2,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 10,
+            "fallenIds": [
+              "level-5-brick-12",
+              "level-5-brick-22",
+              "level-5-brick-13",
+              "level-5-brick-14",
+              "level-5-brick-23",
+              "level-5-brick-24",
+              "level-5-brick-4",
+              "level-5-brick-6",
+              "level-5-brick-25",
+              "level-5-brick-15",
+              "level-5-brick-17",
+              "level-5-brick-27",
+              "level-5-brick-8",
+              "level-5-brick-26",
+              "level-5-brick-16",
+              "level-5-brick-28",
+              "level-5-brick-18",
+              "level-5-brick-2",
+              "level-5-brick-0",
+              "level-5-brick-29",
+              "level-5-brick-30",
+              "level-5-brick-35",
+              "level-5-brick-19",
+              "level-5-brick-20",
+              "level-5-brick-31",
+              "level-5-brick-33",
+              "level-5-brick-32"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 36,
+            "visibleBlocks": 9,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 181,
+            "triangles": 19794,
+            "activeParticles": 8,
+            "activeRipples": 2,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "physical browser win level 5",
+      "passed": true,
+      "detail": {
+        "attempts": [
+          {
+            "screen": "playing",
+            "phase": "aiming",
+            "currentLevel": 5,
+            "levelName": "海风阶梯",
+            "levelHint": "从低处到高处，逐区清理阶梯。",
+            "ammo": 3,
+            "maxAmmo": 4,
+            "fallen": 27,
+            "total": 36,
+            "target": 29,
+            "stars": 0,
+            "bestStars": [
+              3,
+              3,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            "unlocked": 5,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 2.1166666666666756,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": 0.07000001271565755,
+              "pitch": 0.08
+            },
+            "physics": {
+              "bodyCount": 10,
+              "fallenIds": [
+                "level-5-brick-12",
+                "level-5-brick-22",
+                "level-5-brick-13",
+                "level-5-brick-14",
+                "level-5-brick-23",
+                "level-5-brick-24",
+                "level-5-brick-4",
+                "level-5-brick-6",
+                "level-5-brick-25",
+                "level-5-brick-15",
+                "level-5-brick-17",
+                "level-5-brick-27",
+                "level-5-brick-8",
+                "level-5-brick-26",
+                "level-5-brick-16",
+                "level-5-brick-28",
+                "level-5-brick-18",
+                "level-5-brick-2",
+                "level-5-brick-0",
+                "level-5-brick-29",
+                "level-5-brick-30",
+                "level-5-brick-35",
+                "level-5-brick-19",
+                "level-5-brick-20",
+                "level-5-brick-31",
+                "level-5-brick-33",
+                "level-5-brick-32"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 0,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 36,
+              "visibleBlocks": 9,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 182,
+              "triangles": 19874,
+              "activeParticles": 10,
+              "activeRipples": 2,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 37
+            }
+          },
+          {
+            "screen": "won",
+            "phase": "aiming",
+            "currentLevel": 5,
+            "levelName": "海风阶梯",
+            "levelHint": "从低处到高处，逐区清理阶梯。",
+            "ammo": 2,
+            "maxAmmo": 4,
+            "fallen": 29,
+            "total": 36,
+            "target": 29,
+            "stars": 3,
+            "bestStars": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              0,
+              0,
+              0
+            ],
+            "unlocked": 6,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 4.350000000000001,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": -0.2,
+              "pitch": 0.08
+            },
+            "physics": {
+              "bodyCount": 8,
+              "fallenIds": [
+                "level-5-brick-12",
+                "level-5-brick-22",
+                "level-5-brick-13",
+                "level-5-brick-14",
+                "level-5-brick-23",
+                "level-5-brick-24",
+                "level-5-brick-4",
+                "level-5-brick-6",
+                "level-5-brick-25",
+                "level-5-brick-15",
+                "level-5-brick-17",
+                "level-5-brick-27",
+                "level-5-brick-8",
+                "level-5-brick-26",
+                "level-5-brick-16",
+                "level-5-brick-28",
+                "level-5-brick-18",
+                "level-5-brick-2",
+                "level-5-brick-0",
+                "level-5-brick-29",
+                "level-5-brick-30",
+                "level-5-brick-35",
+                "level-5-brick-19",
+                "level-5-brick-20",
+                "level-5-brick-31",
+                "level-5-brick-33",
+                "level-5-brick-32",
+                "level-5-brick-10",
+                "level-5-brick-3"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 5,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 36,
+              "visibleBlocks": 7,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 179,
+              "triangles": 19258,
+              "activeParticles": 33,
+              "activeRipples": 2,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 37
+            }
+          }
+        ],
+        "result": {
+          "screen": "won",
+          "phase": "aiming",
+          "currentLevel": 5,
+          "levelName": "海风阶梯",
+          "levelHint": "从低处到高处，逐区清理阶梯。",
+          "ammo": 2,
+          "maxAmmo": 4,
+          "fallen": 29,
+          "total": 36,
+          "target": 29,
+          "stars": 3,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 6,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 4.350000000000001,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": -0.2,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 8,
+            "fallenIds": [
+              "level-5-brick-12",
+              "level-5-brick-22",
+              "level-5-brick-13",
+              "level-5-brick-14",
+              "level-5-brick-23",
+              "level-5-brick-24",
+              "level-5-brick-4",
+              "level-5-brick-6",
+              "level-5-brick-25",
+              "level-5-brick-15",
+              "level-5-brick-17",
+              "level-5-brick-27",
+              "level-5-brick-8",
+              "level-5-brick-26",
+              "level-5-brick-16",
+              "level-5-brick-28",
+              "level-5-brick-18",
+              "level-5-brick-2",
+              "level-5-brick-0",
+              "level-5-brick-29",
+              "level-5-brick-30",
+              "level-5-brick-35",
+              "level-5-brick-19",
+              "level-5-brick-20",
+              "level-5-brick-31",
+              "level-5-brick-33",
+              "level-5-brick-32",
+              "level-5-brick-10",
+              "level-5-brick-3"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 5,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 36,
+            "visibleBlocks": 7,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 179,
+            "triangles": 19258,
+            "activeParticles": 33,
+            "activeRipples": 2,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "level 6 real pointer shot 1",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": 0,
+          "pitch": 0.08
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 6,
+          "levelName": "厚墙货栈",
+          "levelHint": "宽城墙需要分区瞄准，把后排也推入海中。",
+          "ammo": 4,
+          "maxAmmo": 5,
+          "fallen": 0,
+          "total": 42,
+          "target": 34,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0
+          ],
+          "unlocked": 6,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 43,
+            "fallenIds": [],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 42,
+            "visibleBlocks": 42,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 267,
+            "triangles": 29446,
+            "activeParticles": 0,
+            "activeRipples": 0,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "physical browser win level 6",
+      "passed": true,
+      "detail": {
+        "attempts": [
+          {
+            "screen": "won",
+            "phase": "aiming",
+            "currentLevel": 6,
+            "levelName": "厚墙货栈",
+            "levelHint": "宽城墙需要分区瞄准，把后排也推入海中。",
+            "ammo": 4,
+            "maxAmmo": 5,
+            "fallen": 34,
+            "total": 42,
+            "target": 34,
+            "stars": 3,
+            "bestStars": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              0,
+              0
+            ],
+            "unlocked": 7,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 4.0500000000000025,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": 0,
+              "pitch": 0.08
+            },
+            "physics": {
+              "bodyCount": 9,
+              "fallenIds": [
+                "level-6-brick-1",
+                "level-6-brick-5",
+                "level-6-brick-4",
+                "level-6-brick-9",
+                "level-6-brick-11",
+                "level-6-brick-2",
+                "level-6-brick-3",
+                "level-6-brick-10",
+                "level-6-brick-17",
+                "level-6-brick-22",
+                "level-6-brick-26",
+                "level-6-brick-16",
+                "level-6-brick-18",
+                "level-6-brick-24",
+                "level-6-brick-6",
+                "level-6-brick-13",
+                "level-6-brick-27",
+                "level-6-brick-31",
+                "level-6-brick-38",
+                "level-6-brick-0",
+                "level-6-brick-21",
+                "level-6-brick-34",
+                "level-6-brick-23",
+                "level-6-brick-30",
+                "level-6-brick-32",
+                "level-6-brick-35",
+                "level-6-brick-37",
+                "level-6-brick-39",
+                "level-6-brick-14",
+                "level-6-brick-25",
+                "level-6-brick-28",
+                "level-6-brick-7",
+                "level-6-brick-41",
+                "level-6-brick-20"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 6,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 42,
+              "visibleBlocks": 8,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 189,
+              "triangles": 20142,
+              "activeParticles": 36,
+              "activeRipples": 6,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 37
+            }
+          }
+        ],
+        "result": {
+          "screen": "won",
+          "phase": "aiming",
+          "currentLevel": 6,
+          "levelName": "厚墙货栈",
+          "levelHint": "宽城墙需要分区瞄准，把后排也推入海中。",
+          "ammo": 4,
+          "maxAmmo": 5,
+          "fallen": 34,
+          "total": 42,
+          "target": 34,
+          "stars": 3,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0
+          ],
+          "unlocked": 7,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 4.0500000000000025,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 9,
+            "fallenIds": [
+              "level-6-brick-1",
+              "level-6-brick-5",
+              "level-6-brick-4",
+              "level-6-brick-9",
+              "level-6-brick-11",
+              "level-6-brick-2",
+              "level-6-brick-3",
+              "level-6-brick-10",
+              "level-6-brick-17",
+              "level-6-brick-22",
+              "level-6-brick-26",
+              "level-6-brick-16",
+              "level-6-brick-18",
+              "level-6-brick-24",
+              "level-6-brick-6",
+              "level-6-brick-13",
+              "level-6-brick-27",
+              "level-6-brick-31",
+              "level-6-brick-38",
+              "level-6-brick-0",
+              "level-6-brick-21",
+              "level-6-brick-34",
+              "level-6-brick-23",
+              "level-6-brick-30",
+              "level-6-brick-32",
+              "level-6-brick-35",
+              "level-6-brick-37",
+              "level-6-brick-39",
+              "level-6-brick-14",
+              "level-6-brick-25",
+              "level-6-brick-28",
+              "level-6-brick-7",
+              "level-6-brick-41",
+              "level-6-brick-20"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 6,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 42,
+            "visibleBlocks": 8,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 189,
+            "triangles": 20142,
+            "activeParticles": 36,
+            "activeRipples": 6,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "level 7 real pointer shot 1",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": -0.07,
+          "pitch": 0.08
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 7,
+          "levelName": "三塔联阵",
+          "levelHint": "三座塔分散在平台上，为每一座留出炮弹。",
+          "ammo": 4,
+          "maxAmmo": 5,
+          "fallen": 0,
+          "total": 48,
+          "target": 39,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0
+          ],
+          "unlocked": 7,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": -0.07000001271565755,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 49,
+            "fallenIds": [],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 48,
+            "visibleBlocks": 48,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 285,
+            "triangles": 31390,
+            "activeParticles": 0,
+            "activeRipples": 0,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "level 7 real pointer shot 2",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": 0,
+          "pitch": 0.08
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 7,
+          "levelName": "三塔联阵",
+          "levelHint": "三座塔分散在平台上，为每一座留出炮弹。",
+          "ammo": 3,
+          "maxAmmo": 5,
+          "fallen": 26,
+          "total": 48,
+          "target": 39,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0
+          ],
+          "unlocked": 7,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 23,
+            "fallenIds": [
+              "level-7-brick-16",
+              "level-7-brick-0",
+              "level-7-brick-1",
+              "level-7-brick-18",
+              "level-7-brick-17",
+              "level-7-brick-3",
+              "level-7-brick-20",
+              "level-7-brick-2",
+              "level-7-brick-5",
+              "level-7-brick-7",
+              "level-7-brick-22",
+              "level-7-brick-6",
+              "level-7-brick-21",
+              "level-7-brick-4",
+              "level-7-brick-11",
+              "level-7-brick-25",
+              "level-7-brick-9",
+              "level-7-brick-10",
+              "level-7-brick-26",
+              "level-7-brick-8",
+              "level-7-brick-24",
+              "level-7-brick-13",
+              "level-7-brick-28",
+              "level-7-brick-12",
+              "level-7-brick-31",
+              "level-7-brick-14"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 48,
+            "visibleBlocks": 22,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 217,
+            "triangles": 23766,
+            "activeParticles": 8,
+            "activeRipples": 1,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "physical browser win level 7",
+      "passed": true,
+      "detail": {
+        "attempts": [
+          {
+            "screen": "playing",
+            "phase": "aiming",
+            "currentLevel": 7,
+            "levelName": "三塔联阵",
+            "levelHint": "三座塔分散在平台上，为每一座留出炮弹。",
+            "ammo": 4,
+            "maxAmmo": 5,
+            "fallen": 26,
+            "total": 48,
+            "target": 39,
+            "stars": 0,
+            "bestStars": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              0,
+              0
+            ],
+            "unlocked": 7,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 2.700000000000007,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": -0.07000001271565755,
+              "pitch": 0.08
+            },
+            "physics": {
+              "bodyCount": 23,
+              "fallenIds": [
+                "level-7-brick-16",
+                "level-7-brick-0",
+                "level-7-brick-1",
+                "level-7-brick-18",
+                "level-7-brick-17",
+                "level-7-brick-3",
+                "level-7-brick-20",
+                "level-7-brick-2",
+                "level-7-brick-5",
+                "level-7-brick-7",
+                "level-7-brick-22",
+                "level-7-brick-6",
+                "level-7-brick-21",
+                "level-7-brick-4",
+                "level-7-brick-11",
+                "level-7-brick-25",
+                "level-7-brick-9",
+                "level-7-brick-10",
+                "level-7-brick-26",
+                "level-7-brick-8",
+                "level-7-brick-24",
+                "level-7-brick-13",
+                "level-7-brick-28",
+                "level-7-brick-12",
+                "level-7-brick-31",
+                "level-7-brick-14"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 0,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 48,
+              "visibleBlocks": 22,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 217,
+              "triangles": 23766,
+              "activeParticles": 8,
+              "activeRipples": 1,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 37
+            }
+          },
+          {
+            "screen": "won",
+            "phase": "aiming",
+            "currentLevel": 7,
+            "levelName": "三塔联阵",
+            "levelHint": "三座塔分散在平台上，为每一座留出炮弹。",
+            "ammo": 3,
+            "maxAmmo": 5,
+            "fallen": 39,
+            "total": 48,
+            "target": 39,
+            "stars": 3,
+            "bestStars": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              0
+            ],
+            "unlocked": 8,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 3.283333333333338,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": 0,
+              "pitch": 0.08
+            },
+            "physics": {
+              "bodyCount": 10,
+              "fallenIds": [
+                "level-7-brick-16",
+                "level-7-brick-0",
+                "level-7-brick-1",
+                "level-7-brick-18",
+                "level-7-brick-17",
+                "level-7-brick-3",
+                "level-7-brick-20",
+                "level-7-brick-2",
+                "level-7-brick-5",
+                "level-7-brick-7",
+                "level-7-brick-22",
+                "level-7-brick-6",
+                "level-7-brick-21",
+                "level-7-brick-4",
+                "level-7-brick-11",
+                "level-7-brick-25",
+                "level-7-brick-9",
+                "level-7-brick-10",
+                "level-7-brick-26",
+                "level-7-brick-8",
+                "level-7-brick-24",
+                "level-7-brick-13",
+                "level-7-brick-28",
+                "level-7-brick-12",
+                "level-7-brick-31",
+                "level-7-brick-14",
+                "level-7-brick-29",
+                "level-7-brick-30",
+                "level-7-brick-19",
+                "level-7-brick-23",
+                "level-7-brick-36",
+                "level-7-brick-32",
+                "level-7-brick-40",
+                "level-7-brick-37",
+                "level-7-brick-33",
+                "level-7-brick-41",
+                "level-7-brick-45",
+                "level-7-brick-44",
+                "level-7-brick-46"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 4,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 48,
+              "visibleBlocks": 9,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 192,
+              "triangles": 20466,
+              "activeParticles": 32,
+              "activeRipples": 6,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 37
+            }
+          }
+        ],
+        "result": {
+          "screen": "won",
+          "phase": "aiming",
+          "currentLevel": 7,
+          "levelName": "三塔联阵",
+          "levelHint": "三座塔分散在平台上，为每一座留出炮弹。",
+          "ammo": 3,
+          "maxAmmo": 5,
+          "fallen": 39,
+          "total": 48,
+          "target": 39,
+          "stars": 3,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0
+          ],
+          "unlocked": 8,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 3.283333333333338,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 10,
+            "fallenIds": [
+              "level-7-brick-16",
+              "level-7-brick-0",
+              "level-7-brick-1",
+              "level-7-brick-18",
+              "level-7-brick-17",
+              "level-7-brick-3",
+              "level-7-brick-20",
+              "level-7-brick-2",
+              "level-7-brick-5",
+              "level-7-brick-7",
+              "level-7-brick-22",
+              "level-7-brick-6",
+              "level-7-brick-21",
+              "level-7-brick-4",
+              "level-7-brick-11",
+              "level-7-brick-25",
+              "level-7-brick-9",
+              "level-7-brick-10",
+              "level-7-brick-26",
+              "level-7-brick-8",
+              "level-7-brick-24",
+              "level-7-brick-13",
+              "level-7-brick-28",
+              "level-7-brick-12",
+              "level-7-brick-31",
+              "level-7-brick-14",
+              "level-7-brick-29",
+              "level-7-brick-30",
+              "level-7-brick-19",
+              "level-7-brick-23",
+              "level-7-brick-36",
+              "level-7-brick-32",
+              "level-7-brick-40",
+              "level-7-brick-37",
+              "level-7-brick-33",
+              "level-7-brick-41",
+              "level-7-brick-45",
+              "level-7-brick-44",
+              "level-7-brick-46"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 4,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 48,
+            "visibleBlocks": 9,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 192,
+            "triangles": 20466,
+            "activeParticles": 32,
+            "activeRipples": 6,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "level 8 real pointer shot 1",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": -0.1,
+          "pitch": 0.14
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 8,
+          "levelName": "灯塔嘉年华",
+          "levelHint": "先攻中央高塔，再清理两侧的小塔。",
+          "ammo": 4,
+          "maxAmmo": 5,
+          "fallen": 0,
+          "total": 60,
+          "target": 48,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0
+          ],
+          "unlocked": 8,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": -0.1,
+            "pitch": 0.14000000635782878
+          },
+          "physics": {
+            "bodyCount": 61,
+            "fallenIds": [],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 60,
+            "visibleBlocks": 60,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 322,
+            "triangles": 35358,
+            "activeParticles": 0,
+            "activeRipples": 0,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "level 8 real pointer shot 2",
+      "passed": true,
+      "detail": {
+        "target": {
+          "yaw": 0,
+          "pitch": 0.08
+        },
+        "observed": {
+          "screen": "playing",
+          "phase": "settling",
+          "currentLevel": 8,
+          "levelName": "灯塔嘉年华",
+          "levelHint": "先攻中央高塔，再清理两侧的小塔。",
+          "ammo": 3,
+          "maxAmmo": 5,
+          "fallen": 34,
+          "total": 60,
+          "target": 48,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0
+          ],
+          "unlocked": 8,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0,
+            "pitch": 0.08000003178914389
+          },
+          "physics": {
+            "bodyCount": 27,
+            "fallenIds": [
+              "level-8-brick-0",
+              "level-8-brick-29",
+              "level-8-brick-35",
+              "level-8-brick-4",
+              "level-8-brick-32",
+              "level-8-brick-33",
+              "level-8-brick-5",
+              "level-8-brick-38",
+              "level-8-brick-6",
+              "level-8-brick-8",
+              "level-8-brick-9",
+              "level-8-brick-10",
+              "level-8-brick-28",
+              "level-8-brick-37",
+              "level-8-brick-39",
+              "level-8-brick-36",
+              "level-8-brick-42",
+              "level-8-brick-1",
+              "level-8-brick-13",
+              "level-8-brick-12",
+              "level-8-brick-17",
+              "level-8-brick-40",
+              "level-8-brick-14",
+              "level-8-brick-16",
+              "level-8-brick-41",
+              "level-8-brick-20",
+              "level-8-brick-43",
+              "level-8-brick-21",
+              "level-8-brick-25",
+              "level-8-brick-26",
+              "level-8-brick-24",
+              "level-8-brick-27",
+              "level-8-brick-18",
+              "level-8-brick-23"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 1,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 60,
+            "visibleBlocks": 26,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 233,
+            "triangles": 25382,
+            "activeParticles": 10,
+            "activeRipples": 2,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "physical browser win level 8",
+      "passed": true,
+      "detail": {
+        "attempts": [
+          {
+            "screen": "playing",
+            "phase": "aiming",
+            "currentLevel": 8,
+            "levelName": "灯塔嘉年华",
+            "levelHint": "先攻中央高塔，再清理两侧的小塔。",
+            "ammo": 4,
+            "maxAmmo": 5,
+            "fallen": 34,
+            "total": 60,
+            "target": 48,
+            "stars": 0,
+            "bestStars": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              0
+            ],
+            "unlocked": 8,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 2.133333333333342,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": -0.1,
+              "pitch": 0.14000000635782878
+            },
+            "physics": {
+              "bodyCount": 27,
+              "fallenIds": [
+                "level-8-brick-0",
+                "level-8-brick-29",
+                "level-8-brick-35",
+                "level-8-brick-4",
+                "level-8-brick-32",
+                "level-8-brick-33",
+                "level-8-brick-5",
+                "level-8-brick-38",
+                "level-8-brick-6",
+                "level-8-brick-8",
+                "level-8-brick-9",
+                "level-8-brick-10",
+                "level-8-brick-28",
+                "level-8-brick-37",
+                "level-8-brick-39",
+                "level-8-brick-36",
+                "level-8-brick-42",
+                "level-8-brick-1",
+                "level-8-brick-13",
+                "level-8-brick-12",
+                "level-8-brick-17",
+                "level-8-brick-40",
+                "level-8-brick-14",
+                "level-8-brick-16",
+                "level-8-brick-41",
+                "level-8-brick-20",
+                "level-8-brick-43",
+                "level-8-brick-21",
+                "level-8-brick-25",
+                "level-8-brick-26",
+                "level-8-brick-24",
+                "level-8-brick-27",
+                "level-8-brick-18",
+                "level-8-brick-23"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 0,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 60,
+              "visibleBlocks": 26,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 242,
+              "triangles": 26102,
+              "activeParticles": 18,
+              "activeRipples": 2,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 37
+            }
+          },
+          {
+            "screen": "won",
+            "phase": "aiming",
+            "currentLevel": 8,
+            "levelName": "灯塔嘉年华",
+            "levelHint": "先攻中央高塔，再清理两侧的小塔。",
+            "ammo": 3,
+            "maxAmmo": 5,
+            "fallen": 48,
+            "total": 60,
+            "target": 48,
+            "stars": 3,
+            "bestStars": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "unlocked": 8,
+            "muted": false,
+            "storageWarning": false,
+            "settlingSeconds": 3.883333333333336,
+            "error": "",
+            "dragging": false,
+            "aim": {
+              "yaw": 0,
+              "pitch": 0.08000003178914389
+            },
+            "physics": {
+              "bodyCount": 12,
+              "fallenIds": [
+                "level-8-brick-0",
+                "level-8-brick-29",
+                "level-8-brick-35",
+                "level-8-brick-4",
+                "level-8-brick-32",
+                "level-8-brick-33",
+                "level-8-brick-5",
+                "level-8-brick-38",
+                "level-8-brick-6",
+                "level-8-brick-8",
+                "level-8-brick-9",
+                "level-8-brick-10",
+                "level-8-brick-28",
+                "level-8-brick-37",
+                "level-8-brick-39",
+                "level-8-brick-36",
+                "level-8-brick-42",
+                "level-8-brick-1",
+                "level-8-brick-13",
+                "level-8-brick-12",
+                "level-8-brick-17",
+                "level-8-brick-40",
+                "level-8-brick-14",
+                "level-8-brick-16",
+                "level-8-brick-41",
+                "level-8-brick-20",
+                "level-8-brick-43",
+                "level-8-brick-21",
+                "level-8-brick-25",
+                "level-8-brick-26",
+                "level-8-brick-24",
+                "level-8-brick-27",
+                "level-8-brick-18",
+                "level-8-brick-23",
+                "level-8-brick-2",
+                "level-8-brick-3",
+                "level-8-brick-44",
+                "level-8-brick-7",
+                "level-8-brick-48",
+                "level-8-brick-52",
+                "level-8-brick-47",
+                "level-8-brick-51",
+                "level-8-brick-55",
+                "level-8-brick-59",
+                "level-8-brick-53",
+                "level-8-brick-49",
+                "level-8-brick-57",
+                "level-8-brick-45",
+                "level-8-brick-22"
+              ],
+              "projectile": null
+            },
+            "audio": {
+              "supported": true,
+              "unlocked": true,
+              "muted": false,
+              "suspended": false,
+              "activeVoices": 8,
+              "maxVoices": 8,
+              "disposed": false
+            },
+            "renderer": {
+              "disposed": false,
+              "contextLost": false,
+              "blockMeshes": 60,
+              "visibleBlocks": 11,
+              "geometries": 15,
+              "textures": 3,
+              "drawCalls": 197,
+              "triangles": 21034,
+              "activeParticles": 33,
+              "activeRipples": 6,
+              "pixelRatio": 1,
+              "ownedGeometries": 17,
+              "ownedMaterials": 37
+            }
+          }
+        ],
+        "result": {
+          "screen": "won",
+          "phase": "aiming",
+          "currentLevel": 8,
+          "levelName": "灯塔嘉年华",
+          "levelHint": "先攻中央高塔，再清理两侧的小塔。",
+          "ammo": 3,
+          "maxAmmo": 5,
+          "fallen": 48,
+          "total": 60,
+          "target": 48,
+          "stars": 3,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "unlocked": 8,
+          "muted": false,
+          "storageWarning": false,
+          "settlingSeconds": 3.883333333333336,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0,
+            "pitch": 0.08000003178914389
+          },
+          "physics": {
+            "bodyCount": 12,
+            "fallenIds": [
+              "level-8-brick-0",
+              "level-8-brick-29",
+              "level-8-brick-35",
+              "level-8-brick-4",
+              "level-8-brick-32",
+              "level-8-brick-33",
+              "level-8-brick-5",
+              "level-8-brick-38",
+              "level-8-brick-6",
+              "level-8-brick-8",
+              "level-8-brick-9",
+              "level-8-brick-10",
+              "level-8-brick-28",
+              "level-8-brick-37",
+              "level-8-brick-39",
+              "level-8-brick-36",
+              "level-8-brick-42",
+              "level-8-brick-1",
+              "level-8-brick-13",
+              "level-8-brick-12",
+              "level-8-brick-17",
+              "level-8-brick-40",
+              "level-8-brick-14",
+              "level-8-brick-16",
+              "level-8-brick-41",
+              "level-8-brick-20",
+              "level-8-brick-43",
+              "level-8-brick-21",
+              "level-8-brick-25",
+              "level-8-brick-26",
+              "level-8-brick-24",
+              "level-8-brick-27",
+              "level-8-brick-18",
+              "level-8-brick-23",
+              "level-8-brick-2",
+              "level-8-brick-3",
+              "level-8-brick-44",
+              "level-8-brick-7",
+              "level-8-brick-48",
+              "level-8-brick-52",
+              "level-8-brick-47",
+              "level-8-brick-51",
+              "level-8-brick-55",
+              "level-8-brick-59",
+              "level-8-brick-53",
+              "level-8-brick-49",
+              "level-8-brick-57",
+              "level-8-brick-45",
+              "level-8-brick-22"
+            ],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": false,
+            "suspended": false,
+            "activeVoices": 8,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 60,
+            "visibleBlocks": 11,
+            "geometries": 15,
+            "textures": 3,
+            "drawCalls": 197,
+            "triangles": 21034,
+            "activeParticles": 33,
+            "activeRipples": 6,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 37
+          }
+        }
+      }
+    },
+    {
+      "name": "all 8 levels won physically and sequentially",
+      "passed": true,
+      "detail": [
+        {
+          "level": 1,
+          "fallen": 15,
+          "target": 15,
+          "stars": 3,
+          "ammo": 2
+        },
+        {
+          "level": 2,
+          "fallen": 20,
+          "target": 20,
+          "stars": 3,
+          "ammo": 2
+        },
+        {
+          "level": 3,
+          "fallen": 24,
+          "target": 24,
+          "stars": 3,
+          "ammo": 2
+        },
+        {
+          "level": 4,
+          "fallen": 26,
+          "target": 26,
+          "stars": 3,
+          "ammo": 2
+        },
+        {
+          "level": 5,
+          "fallen": 29,
+          "target": 29,
+          "stars": 3,
+          "ammo": 2
+        },
+        {
+          "level": 6,
+          "fallen": 34,
+          "target": 34,
+          "stars": 3,
+          "ammo": 4
+        },
+        {
+          "level": 7,
+          "fallen": 39,
+          "target": 39,
+          "stars": 3,
+          "ammo": 3
+        },
+        {
+          "level": 8,
+          "fallen": 48,
+          "target": 48,
+          "stars": 3,
+          "ammo": 3
+        }
+      ]
+    },
+    {
+      "name": "final level hides next and shows completion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "progress survives reload",
+      "passed": true,
+      "detail": {
+        "screen": "home",
+        "phase": "aiming",
+        "currentLevel": 8,
+        "levelName": "灯塔嘉年华",
+        "levelHint": "先攻中央高塔，再清理两侧的小塔。",
+        "ammo": 5,
+        "maxAmmo": 5,
+        "fallen": 0,
+        "total": 60,
+        "target": 48,
+        "stars": 0,
+        "bestStars": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "unlocked": 8,
+        "muted": true,
+        "storageWarning": false,
+        "settlingSeconds": 6,
+        "error": "",
+        "dragging": false,
+        "aim": {
+          "yaw": 0,
+          "pitch": 0.08
+        },
+        "physics": {
+          "bodyCount": 61,
+          "fallenIds": [],
+          "projectile": null
+        },
+        "audio": {
+          "supported": true,
+          "unlocked": false,
+          "muted": true,
+          "suspended": false,
+          "activeVoices": 0,
+          "maxVoices": 8,
+          "disposed": false
+        },
+        "renderer": {
+          "disposed": false,
+          "contextLost": false,
+          "blockMeshes": 60,
+          "visibleBlocks": 60,
+          "geometries": 13,
+          "textures": 3,
+          "drawCalls": 301,
+          "triangles": 33470,
+          "activeParticles": 0,
+          "activeRipples": 0,
+          "pixelRatio": 1,
+          "ownedGeometries": 17,
+          "ownedMaterials": 35
+        }
+      }
+    },
+    {
+      "name": "mute setting survives reload",
+      "passed": true,
+      "detail": {
+        "supported": true,
+        "unlocked": false,
+        "muted": true,
+        "suspended": false,
+        "activeVoices": 0,
+        "maxVoices": 8,
+        "disposed": false
+      }
+    },
+    {
+      "name": "saved-progress home card matches Start level",
+      "passed": true,
+      "detail": {
+        "home": {
+          "screen": "home",
+          "phase": "aiming",
+          "currentLevel": 8,
+          "levelName": "灯塔嘉年华",
+          "levelHint": "先攻中央高塔，再清理两侧的小塔。",
+          "ammo": 5,
+          "maxAmmo": 5,
+          "fallen": 0,
+          "total": 60,
+          "target": 48,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "unlocked": 8,
+          "muted": true,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 61,
+            "fallenIds": [],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": false,
+            "muted": true,
+            "suspended": false,
+            "activeVoices": 0,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 60,
+            "visibleBlocks": 60,
+            "geometries": 13,
+            "textures": 3,
+            "drawCalls": 301,
+            "triangles": 33470,
+            "activeParticles": 0,
+            "activeRipples": 0,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 35
+          }
+        },
+        "started": {
+          "screen": "playing",
+          "phase": "aiming",
+          "currentLevel": 8,
+          "levelName": "灯塔嘉年华",
+          "levelHint": "先攻中央高塔，再清理两侧的小塔。",
+          "ammo": 5,
+          "maxAmmo": 5,
+          "fallen": 0,
+          "total": 60,
+          "target": 48,
+          "stars": 0,
+          "bestStars": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "unlocked": 8,
+          "muted": true,
+          "storageWarning": false,
+          "settlingSeconds": 6,
+          "error": "",
+          "dragging": false,
+          "aim": {
+            "yaw": 0,
+            "pitch": 0.08
+          },
+          "physics": {
+            "bodyCount": 61,
+            "fallenIds": [],
+            "projectile": null
+          },
+          "audio": {
+            "supported": true,
+            "unlocked": true,
+            "muted": true,
+            "suspended": false,
+            "activeVoices": 0,
+            "maxVoices": 8,
+            "disposed": false
+          },
+          "renderer": {
+            "disposed": false,
+            "contextLost": false,
+            "blockMeshes": 60,
+            "visibleBlocks": 60,
+            "geometries": 13,
+            "textures": 3,
+            "drawCalls": 301,
+            "triangles": 33470,
+            "activeParticles": 0,
+            "activeRipples": 0,
+            "pixelRatio": 1,
+            "ownedGeometries": 17,
+            "ownedMaterials": 35
+          }
+        }
+      }
+    },
+    {
+      "name": "selection Back home matches saved unlocked level",
+      "passed": true,
+      "detail": {
+        "screen": "home",
+        "phase": "aiming",
+        "currentLevel": 8,
+        "levelName": "灯塔嘉年华",
+        "levelHint": "先攻中央高塔，再清理两侧的小塔。",
+        "ammo": 5,
+        "maxAmmo": 5,
+        "fallen": 0,
+        "total": 60,
+        "target": 48,
+        "stars": 0,
+        "bestStars": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "unlocked": 8,
+        "muted": true,
+        "storageWarning": false,
+        "settlingSeconds": 6,
+        "error": "",
+        "dragging": false,
+        "aim": {
+          "yaw": 0,
+          "pitch": 0.08
+        },
+        "physics": {
+          "bodyCount": 61,
+          "fallenIds": [],
+          "projectile": null
+        },
+        "audio": {
+          "supported": true,
+          "unlocked": true,
+          "muted": true,
+          "suspended": true,
+          "activeVoices": 0,
+          "maxVoices": 8,
+          "disposed": false
+        },
+        "renderer": {
+          "disposed": false,
+          "contextLost": false,
+          "blockMeshes": 60,
+          "visibleBlocks": 60,
+          "geometries": 14,
+          "textures": 3,
+          "drawCalls": 301,
+          "triangles": 33470,
+          "activeParticles": 0,
+          "activeRipples": 0,
+          "pixelRatio": 1,
+          "ownedGeometries": 17,
+          "ownedMaterials": 35
+        }
+      }
+    },
+    {
+      "name": "no browser console errors or uncaught exceptions",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "wins": [
+    {
+      "level": 1,
+      "fallen": 15,
+      "target": 15,
+      "stars": 3,
+      "ammo": 2
+    },
+    {
+      "level": 2,
+      "fallen": 20,
+      "target": 20,
+      "stars": 3,
+      "ammo": 2
+    },
+    {
+      "level": 3,
+      "fallen": 24,
+      "target": 24,
+      "stars": 3,
+      "ammo": 2
+    },
+    {
+      "level": 4,
+      "fallen": 26,
+      "target": 26,
+      "stars": 3,
+      "ammo": 2
+    },
+    {
+      "level": 5,
+      "fallen": 29,
+      "target": 29,
+      "stars": 3,
+      "ammo": 2
+    },
+    {
+      "level": 6,
+      "fallen": 34,
+      "target": 34,
+      "stars": 3,
+      "ammo": 4
+    },
+    {
+      "level": 7,
+      "fallen": 39,
+      "target": 39,
+      "stars": 3,
+      "ammo": 3
+    },
+    {
+      "level": 8,
+      "fallen": 48,
+      "target": 48,
+      "stars": 3,
+      "ammo": 3
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

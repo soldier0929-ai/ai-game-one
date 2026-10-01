@@ -109,7 +109,7 @@ function onAction(action: UIAction): void {
   case 'resume': resume(); break;
   case 'levels': input.cancel(); session.pause(); screen = 'levels'; audio.suspend(); renderUI(); break;
   case 'back':
-   try { loadLevel(1); screen = 'home'; renderUI(); } catch (e) { fail(e); }
+   try { loadLevel(store.read().unlocked); screen = 'home'; renderUI(); } catch (e) { fail(e); }
    break;
   case 'help':
    tutorialReturn = screen;
@@ -184,6 +184,6 @@ void (async () => {
  try {
   if (typeof WebAssembly === 'undefined') throw new Error('此浏览器不支持 WebAssembly，请使用新版浏览器。');
   renderer = new GameRenderer(canvas, () => fail(new Error('图形显示暂时中断，请重新加载游戏。')));
-  await initializePhysics(); loadLevel(1); screen = 'home'; renderUI(); frame = requestAnimationFrame(tick);
+  await initializePhysics(); loadLevel(store.read().unlocked); screen = 'home'; renderUI(); frame = requestAnimationFrame(tick);
  } catch (e) { fail(e); }
 })();

@@ -47,6 +47,8 @@ QA_URL=http://127.0.0.1:4173 python3 scripts/browser-qa.py
 
 TypeScript + Vite；Three.js 渲染，Rapier WASM 模拟刚体，原生 DOM/CSS 界面和 Web Audio 合成音效。`src/game.ts` 是规则状态机，`simulation.ts` 管理物理世界，`levels.ts` 定义关卡；输入、渲染、界面、声音与存档各自独立。物理固定 60 Hz，快速炮弹使用连续碰撞检测。
 
+运行时第三方依赖的许可证随静态产物交付：Three.js（MIT）和 Rapier（Apache-2.0），见 `public/licenses/`。构建提示的较大 JavaScript 分块主要来自内嵌 WASM；gzip 后约 1.82 MB，页面提供首次加载提示。
+
 源码在 `soldier0929-ai/ai-game-one`，原始 `origin` 保留。`.openai/hosting.json` 只含私有 Sites 标识及静态目录，没有凭证。私有试玩入口可能要求平台身份验证；本项目没有扩大访问权限。
 
 本项目在云端制作和验证，没有使用用户 Mac。浏览器触屏模拟并不等于真机测试；Safari/iOS 真机和真实手机性能须另行验证。
